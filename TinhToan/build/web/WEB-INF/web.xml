@@ -8,6 +8,18 @@
         <servlet-name>USCLNServlet</servlet-name>
         <servlet-class>controllers.USCLNServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>TinhTongServlet</servlet-name>
+        <servlet-class>controllers.TinhTongServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ELectricityCostServlet</servlet-name>
+        <servlet-class>controllers.ELectricityCostServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MoneyExchangeServlet</servlet-name>
+        <servlet-class>controllers.MoneyExchangeServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>TinhToanServlet</servlet-name>
         <url-pattern>/tinhtoan</url-pattern>
@@ -15,5 +27,17 @@
     <servlet-mapping>
         <servlet-name>USCLNServlet</servlet-name>
         <url-pattern>/timuscln</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TinhTongServlet</servlet-name>
+        <url-pattern>/sum</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ELectricityCostServlet</servlet-name>
+        <url-pattern>/electricity</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MoneyExchangeServlet</servlet-name>
+        <url-pattern>/moneyexchange</url-pattern>
     </servlet-mapping>
 </web-app>
