@@ -70,7 +70,7 @@ public class NhapServlet extends HttpServlet {
     throws ServletException, IOException {
         processRequest(request, response);
         String num=request.getParameter("txtNum");
-
+        
     }
 
     /** 
