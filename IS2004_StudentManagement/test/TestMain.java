@@ -8,10 +8,21 @@ public class TestMain {
     public static void main(String[] args) {
         StudentDAO dao = new StudentDAO();
         List<Student> myList = new ArrayList<>();
+
         myList = dao.getAllStudent();
         
         for (Student s : myList) {
             System.out.println(s.toString());
         }
+        System.out.println("");
+        dao.deleteStudent("He200009");
+        
+        myList = dao.getAllStudent();
+        
+        for (Student s : myList) {
+            System.out.println(s.toString());
+        }
+
+        
     }
 }

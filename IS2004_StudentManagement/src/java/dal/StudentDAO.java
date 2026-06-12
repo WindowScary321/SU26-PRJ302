@@ -36,4 +36,21 @@ public class StudentDAO {
         }
         return listStd;
     }
+    
+    public void deleteStudent(String id){
+        try {
+//            String sql = "DELETE FROM tbStudent\n" +
+//                         "WHERE id = '"+id+"'";
+            String sql = "DELETE FROM tbStudent\n" +
+                         "WHERE id = ?";
+            db = new DBContext();
+            conn = db.getConnection();
+            ps = conn.prepareStatement(sql);
+            ps.setString(1, id);
+            ps.executeUpdate();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+    
 }
