@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ProjectRunConfigurationManager">
+  <configuration name="Tomcat Local"
+      type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory"
+      factoryName="Local"
+      APPLICATION_SERVER_NAME="Tomcat 10.1.55">
+    <option name="UPDATING_POLICY" value="update-classes-and-resources" />
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <deployment>
+      <artifact name="tinhtoan:war exploded">
+        <settings>
+          <option name="CONTEXT_PATH" value="/tinhtoan" />
+        </settings>
+      </artifact>
+    </deployment>
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="tinhtoan:war exploded" />
+      </option>
+    </method>
+  </configuration>
+</component>

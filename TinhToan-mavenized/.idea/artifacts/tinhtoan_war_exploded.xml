@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="tinhtoan:war exploded">
+    <output-path>$PROJECT_DIR$/target/tinhtoan-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="tinhtoan/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tinhtoan" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

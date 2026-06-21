@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Maven cargo:run"
+      type="MavenRunConfiguration" factoryName="Maven">
+    <MavenSettings>
+      <option name="workingDirPath" value="$PROJECT_DIR$" />
+      <option name="goals" value="cargo:run" />
+      <option name="pomFileName" value="pom.xml" />
+    </MavenSettings>
+    <method v="2" />
+  </configuration>
+</component>
